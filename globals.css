@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Nunito', sans-serif !important;
+  font-weight: 100;
+}
+
+img {
+  mix-blend-mode: multiply;
+}
+
+.font-logo {
+  font-family: 'Poppins' !important;
+  @apply font-bold;
+}
+
+.required {
+  @apply after:content-["_*"] after:text-red-500;
+}
+
+.field {
+  @apply flex flex-col gap-1;
+}
+
+.field span {
+  @apply font-semibold text-secondary text-xs sm:text-sm;
+}
+
+.field input {
+  @apply border rounded py-2 px-3 border-secondary border-opacity-25 text-base outline-none focus:border-primary;
+}
+
+.typing-cursor {
+  display: inline-block;
+  width: 10px;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@layer base {
+  .font-outline-2 {
+    -webkit-text-stroke: 1px black;
+  }
+  .font-outline-4 {
+    -webkit-text-stroke: 4px black;
+  }
+}
