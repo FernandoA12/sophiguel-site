@@ -56,50 +56,52 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         <title>Sofhiguel: Conectando destinos, entregando confiança</title>
         <meta
           name="title"
-          content="Budget Saas: Sistema de gestão financeira, O ERP para Saúde Financeira, rápido, fácil e eficiente"
+          content="Sofhiguel: Conectando destinos, entregando confiança"
         />
         <meta
           name="description"
-          content="Sistema de gestão financeira, O ERP para Saúde Financeira, rápido, fácil e eficiente"
+          content="Conectando destinos, entregando confiança"
         />
 
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://budgetsaas.com.br" />
+        <meta
+          property="og:url"
+          content="https://sophigueltransportadora.com.br"
+        />
         <meta
           property="og:title"
-          content="Budget Saas - Sistema de gestão financeira"
+          content="Sofhiguel - Site de transportadora"
         />
         <meta
           property="og:description"
-          content="Sistema de gestão financeira, O ERP para Saúde Financeira, rápido, fácil e eficiente"
+          content="Conectando destinos, entregando confiança"
         />
         <meta
           property="og:image"
-          content="https://budgetsaas.com.br/logo.png"
+          content="https://sophigueltransportadora.com.br/logo.png"
         />
 
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://budgetsaas.com.br" />
+        <meta
+          property="twitter:url"
+          content="https://sophigueltransportadora.com.br"
+        />
         <meta
           property="twitter:title"
-          content="Budget Saas - Sistema de gestão financeira"
+          content="Sofhiguel - Site de transportadora"
         />
         <meta
           property="twitter:description"
-          content="Sistema de gestão financeira, O ERP para Saúde Financeira, rápido, fácil e eficiente"
+          content="Conectando destinos, entregando confiança"
         />
         <meta
           property="twitter:image"
-          content="https://budgetsaas.com.br/logo.png"
+          content="https://sophigueltransportadora.com.br/logo.png"
         />
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"
         />
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-XR54FJ14GJ"
-        ></script>
       </Head>
       <QueryClientProvider client={queryClient}>
         <Component {...pageProps} />
